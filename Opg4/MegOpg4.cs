@@ -1,6 +1,6 @@
 ﻿namespace Opg4
 {
-    internal class Opg4
+    internal class MegOpg4
     {
         static void Main(string[] args)
         {

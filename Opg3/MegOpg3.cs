@@ -2,7 +2,7 @@
 
 namespace Opg3
 {
-    internal class Opg3
+    internal class MegOpg3
     {
         static void Main(string[] args)
         {
