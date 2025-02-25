@@ -1,33 +1,24 @@
-﻿namespace Opgave_1
+﻿namespace Opgave_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Indtast alder");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Indtast højde");
+            Console.WriteLine("Indtast grader i celcuis");
             double height = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Indtast vægt");
+            Console.WriteLine("Indtast grader i fahrenheit");
             double weight = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Indtast initial");
-            char initial = Convert.ToChar(Console.ReadLine());
+            double c = 25;
+            double f = 77;
+            double cToF;
+            double fToC;
 
-            Console.WriteLine("Indtast navn");
-            string name = Console.ReadLine();
-
-            Console.WriteLine("Tast 'y' hvis du er studerence og 'n' hvis du ikke er studerende");
-            char input = Convert.ToChar(Console.ReadLine());
-            bool isStudent = false;
-            if (input == 'y')
-            {
-                isStudent = true;
-            }
-
-            Console.WriteLine("Age: " + age + ", Height: " + height + ", Weight: " + weight + ", Initial: " + initial + ", Name: " + name + ", Is Student: " + isStudent);
+            cToF = c * (9.00 / 5.00) + 32;
+            fToC = (f - 32) * (5.00 / 9.00);
+            Console.WriteLine(c + "°C is " + cToF + "°F");
+            Console.WriteLine(f + "°F is " + fToC + "°C");
             Console.ReadLine();
         }
     }
