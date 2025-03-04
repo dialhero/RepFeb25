@@ -27,7 +27,7 @@
         }
     }
 
-        internal class Program
+        internal class Person_Alice
         {
             static void Main(string[] arg)
             {

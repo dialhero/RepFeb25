@@ -12,7 +12,7 @@
         }
     }
 
-    internal class Program
+    internal class Person_classes
     {
         static void Main(string[] args)
         {
